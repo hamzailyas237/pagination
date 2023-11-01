@@ -51,7 +51,7 @@ function App() {
 
         {/* Setting currentPage because in AppPagination component we are setting page state onChange
         which is causing rerendering, therefore the Pagination component of MUI we are using in
-        AppPagination component is not showing the correct page (in the tabs below i.w 1,2,3,4,4) */}
+        AppPagination component is not showing the correct/updated tab (i.e 1,2,3,4,5) */}
 
         <AppPagination getPage={getPage} currentPage={currentPage} />
       </Stack>
